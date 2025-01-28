@@ -51,4 +51,14 @@ public class TaskService {
         }
         taskRepository.deleteById(id);
     }
+
+    @Transactional
+    public Task markTaskCompleted(Long id){
+
+        Task result = taskRepository.findById(id).get();
+
+        result.setCompleted(true);
+
+        return taskRepository.save(result);
+    }
 }
