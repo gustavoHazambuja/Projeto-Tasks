@@ -10,6 +10,11 @@ Esse projeto é  uma aplicação backend e ela consiste em um pequeno sistema (A
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/gustavoHazambuja/Images/blob/main/Tasks/Task.png)
 
+## API
+![API](https://github.com/gustavoHazambuja/Images/blob/main/Tasks/GetTasks.png)
+
+![AP](https://github.com/gustavoHazambuja/Images/blob/main/Tasks/PostTask.png)
+
 # Tecnologias utilizadas
 ## Back end
 - Java
