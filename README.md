@@ -6,6 +6,8 @@
 
 Esse projeto é  uma aplicação backend e ela consiste em um pequeno sistema (API REST) de gerenciamento de tarefas, como adicionar e deletar uma tarefa.
 
+O objetivo do projeto foi para manter boa práticas com o framework Spring Boot
+
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/gustavoHazambuja/Images/blob/main/Tasks/Task.png)
