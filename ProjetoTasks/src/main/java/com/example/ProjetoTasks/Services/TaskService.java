@@ -25,4 +25,26 @@ public class TaskService {
     public Task findById(Long id){
         return taskRepository.findById(id).get();
     }
+
+    @Transactional
+    public Task updateTask(Long id, Task t){
+
+        Task result = taskRepository.findById(id).get();
+
+        result.setName(t.getName());
+        result.setDescription(t.getDescription());
+        result.setCompleted(t.isCompleted());
+
+        return taskRepository.save(result);
+    }
+
+    @Transactional
+    public Task addTask(Task k){
+        return taskRepository.save(k);
+    }
+
+    @Transactional
+    public void deleteTask(Long id){
+        taskRepository.deleteById(id);
+    }
 }
