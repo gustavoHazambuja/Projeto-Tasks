@@ -14,7 +14,7 @@ Esse projeto é  uma aplicação backend e ela consiste em um pequeno sistema (A
 ## Back end
 - Java
 - Spring Boot
-- JPA / Hibernate
+- JPA
 - Maven
 ## Implantação em produção
 - Banco de dados: Postgresql
